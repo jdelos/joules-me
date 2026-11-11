@@ -148,6 +148,49 @@ cv:
     Languages:
       - Native Catalan and Spanish · Proficient in English and French · Conversational in Portuguese
         and Dutch
+    Projects:
+      - name: AI-agent career pipeline
+        start_date: 2026-04
+        end_date: 2026-10
+        highlights:
+          - Built a Mastra agent pipeline, a structured career knowledge base and an artifact
+            workspace, with agent skills checked into the repositories.
+      - name: Switched-capacitor converter impedance tools
+        start_date: 2015-03
+        end_date: 2026-10
+        highlights:
+          - 'Porting my MATLAB converter models to C++ (SymEngine) and
+            #text(maroon, weight: "bold")[WebAssembly], with GitHub Actions building the pinned
+            library and checking the native and WebAssembly results against MATLAB.'
+      - name: Onion Memorandum platform
+        start_date: 2024-07
+        end_date: 2025-03
+        highlights:
+          - Remix (Epic Stack) application with Prisma migrations, MDX content and PDF generation,
+            tested with Vitest and Playwright and deployed with Docker on Fly.io via GitHub Actions.
+      - name: QR ticketing app and ticket reader
+        start_date: 2023-11
+        end_date: 2024-03
+        highlights:
+          - Shopify app that issues QR-code tickets as PDFs, plus a Remix scanner app built on
+            XState; tested with Cypress and Vitest, deployed with Docker on Fly.io.
+      - name: Aircraft power converter, Polytechnic Institute of New York University
+        start_date: 2009-02
+        end_date: 2009-12
+        highlights:
+          - 'As a research visitor, designed and modelled a #text(maroon, weight: "bold")[20 kW]
+            fuel-cell converter providing ±270 V rails for a universal power-converter research
+            system.'
+      - name: Embedded and real-time internships, Renault Technocentre, LAGIS and INRETS
+        start_date: 2005-02
+        end_date: 2006-07
+        highlights:
+          - Benchmarked vehicle-speed estimators on dSPACE real-time hardware with MATLAB/Simulink
+            (Renault).
+          - Wrote a CAN network sniffer in C on Linux/RTAI for the Robucar vehicle and the developer
+            manual for SynDEx, a tool for distributed real-time embedded systems (LAGIS).
+          - Designed an electronic system to detect electromagnetic perturbations in antenna EMC
+            test setups (INRETS).
 design:
   theme: engineeringresumes
   page:
