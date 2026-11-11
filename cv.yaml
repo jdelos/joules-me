@@ -32,8 +32,9 @@ cv:
             would otherwise be closed or empty, hosting around 200 guests per afternoon; each
             restaurant earned about €24 per guest (€4 from me plus about €20 in drinks),
             roughly €4,800 per afternoon.
-          - Designed and built tested TypeScript/Astro DApps and Solidity contracts, with
-            their integrations, documentation and delivery workflows.
+          - Created an equity-crowdfunding platform so the business could be owned by its
+            community, applying open-source principles to an open business model; designed
+            and built its tested TypeScript/Astro DApps and Solidity contracts.
           - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
             its verified release artifacts into the DApp repository by pull request.
           - Presented the venture in investor conversations during the 2024–2025 fundraising
