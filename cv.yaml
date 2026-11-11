@@ -5,7 +5,7 @@
 # Accents: #text(maroon, weight: "bold")[...] (no nested parentheses, or RenderCV escapes it).
 cv:
   name: Julià Delos Ayllón
-  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · Embedded Systems Full-Stack Web
+  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · From Embbeded to Full-Stack
   location: Maastricht, Netherlands
   email: julidelos@gmail.com
   phone: +31 6 26 17 98 86
@@ -15,6 +15,11 @@ cv:
     - network: GitHub
       username: jdelos
   sections:
+    Profile:
+      - Seasoned engineer and failed entrepreneur with a PhD in Microelectronics, bringing together a deep understanding
+        of hardware and software and a passion for building things. Enjoys turning theory into working systems and uses
+        Blender to bring personal engineering and 3D printing projects to life. Eager to contribute this experience, curiosity,
+        and Mediterranean passion to Blender’s development.
     Experience:
       - company: La Calçotada
         position: Founder
@@ -22,112 +27,99 @@ cv:
         end_date: 2025
         location: Netherlands
         highlights:
-          - "Turned a yearly food festival into a scalable business model for food experiences serving
-            up to [10,000 users] in the Netherlands and 7 neighbouring countries."
-          - 'Generated #text(maroon, weight: "bold")[EUR 100k+] in MVP online sales, with peak
-            run-rate around #text(maroon, weight: "bold")[EUR 20k/month], gross margins above
-            #text(maroon, weight: "bold")[40%], and approximately #text(maroon, weight: "bold")[3%]
-            e-commerce conversion.'
-          - 'Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to fill hours they
-            would otherwise be closed or empty, hosting around #text(maroon, weight: "bold")[200 guests]
-            per afternoon; each restaurant earned about 19€ per guest (€4 from me plus about €15
-            in drinks), roughly #text(maroon, weight: "bold")[2800€ per afternoon] on top of their base revenue.'
-          - "Built the operating model behind the venture: value proposition, e-commerce flow,
-            logistics, supplier relationships, restaurant partnerships, driver-based financial
-            modelling, and customer operations."
-          - Created an equity-crowdfunding platform so the business could be owned by its
-            community, applying open-source principles to an open business model, and failed in
-            the go-to-market phase.
-
-      - company: INNER / Innertech.ai
-        position: Founder and CTO
-        start_date: 2022-04
-        end_date: 2022-12
-        location: Eindhoven, Netherlands
-        highlights:
-          - Joined the early venture phase around disruptive X-ray technology developed by Mosaic,
-            exploring healthcare applications for underserved contexts.
-          - 'Supported the venture through the #text(maroon, weight: "bold")[HighTechXL] program,
-            contributing to product, technical, business positioning, and financial projections.'
-          - Mapped the patent landscape and potential competing companies to clarify commercial
-            risk, positioning, and venture-development options.
-
+          - 'Turned a yearly food festival into a food-experience business serving up to
+            #text(maroon, weight: "bold")[10,000 users] across the Netherlands and seven
+            neighbouring countries, building the e-commerce flow, logistics and supplier network.'
+          - 'Generated #text(maroon, weight: "bold")[EUR 100k+] in online sales during the
+            initial market validation phase, reaching a peak run-rate of around
+            #text(maroon, weight: "bold")[EUR 20k/month], with gross margins above
+            #text(maroon, weight: "bold")[40%] and approximately
+            #text(maroon, weight: "bold")[3%] e-commerce conversion.'
+          - 'Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to host around
+            #text(maroon, weight: "bold")[200 guests] per afternoon during otherwise quiet
+            or closed hours, generating approximately
+            #text(maroon, weight: "bold")[EUR 19 per guest] for each restaurant.'
+          - "Built an equity-crowdfunding platform intended to give the community ownership
+            of the business, applying open-source principles to an open business model;
+            the initiative failed at the go-to-market stage."
       - company: Ripatrip
         position: Co-Founder and CTO
         start_date: 2019-09
         end_date: 2020-06
         location: Remote (team in Portugal)
         highlights:
-          - 'Co-founded a data-driven travel search platform supported by
-            #text(maroon, weight: "bold")[Startup Lisboa].'
-          - Led platform architecture for a Gatsby/React PWA and guided two junior developers from
-            concept to working prototype.
-          - 'Released an operating prototype for kitesurf destination search within
-            #text(maroon, weight: "bold")[two months] and expanded to early ski/snowboard search.'
-          - "Delivered a client-only application using a Gatsby/Redux front end, Sanity content schemas and the scripts that imported
-            travel data"
+          - 'Co-founded a travel search platform supported by
+            #text(maroon, weight: "bold")[Startup Lisboa], initially focused
+            on kitesurfing and later expanded to ski and snowboard destinations.'
+          - 'Delivered a working demo within #text(maroon, weight: "bold")[two weeks]
+            and presented it at #text(maroon, weight: "bold")[Web Summit 2019 in Lisbon].
+            Guided #text(maroon, weight: "bold")[two junior developers] through further development.'
+          - 'Enabled travel searches across #text(maroon, weight: "bold")[5,000 destinations]
+            by integrating multiple APIs for destination data and travel offerings.'
+          - "Built the platform with React-Gatsby/Redux and a CMS as the only backend,
+            querying flight, accommodation, and destination data directly
+            from the client in real time."
+
       - company: ICT Group
         position: Innovation and Technology Consultant
         start_date: 2016-09
         end_date: 2018-09
         location: Eindhoven, Netherlands
         highlights:
-          - Worked in the Technology and Innovation Department with direct CTO contact on internal
-            venture validation and data-driven innovation.
-          - Educated business-unit leaders on how data science could create value inside their
-            units, and convinced senior leadership to create a dedicated data-science team and
-            data lake.
-          - 'Coached around #text(maroon, weight: "bold")[10 developer-led teams] preparing for
-            ICT''s internal Dragons'' Den using Strategyzer canvas tools, Business Model Canvas,
-            shared visual language, and validation experiments.'
-          - 'Helped teams turn technical ideas into business cases and investment-board narratives;
-            #text(maroon, weight: "bold")[3 ideas were internally funded] for further validation,
-            development, or first-customer testing.'
-          - Developed business and driver-based financial plans to support internal Dragons' Den
-            proposals, connecting technical feasibility, customer value, operational impact, and
-            investment logic.
+          - "Worked closely with the C-suite to introduce visual business modelling
+            tools across business units, creating a shared language for strategy
+            and innovation."
+          - 'Convinced senior leadership to establish a
+            #text(maroon, weight: "bold")[dedicated data-science team and data lake]
+            by showing business-unit leaders how data science could benefit their units.'
+          - 'Coached around #text(maroon, weight: "bold")[10 developer-led teams]
+            for the internal Dragons'' Den, using experiments to validate
+            technical ideas and customer value.'
+
       - company: Philips Research
         position: Research Scientist
         start_date: 2011-06
         end_date: 2015-12
         location: Eindhoven, Netherlands
         highlights:
-          - Researched highly integrated power-conversion solutions for next-generation LED lighting
-            in collaboration with Eindhoven University of Technology.
-          - 'Developed a new family of circuits for miniaturized LED-driver applications, resulting
-            in #text(maroon, weight: "bold")[8 first-named EPO patent records (6 granted)] forming
-            a patent family for broad protection.'
-          - Worked closely with Philips IP counsel on invention disclosures, technical novelty,
-            prior-art positioning, and patent submission quality.
-          - Presented research internationally, contributed to peer-reviewed publications, and
-            completed a PhD in Electrical Engineering.
+          - Surpassed state-of-the-art integrated power density by developing a new
+            power-system-on-chip LED driver.
+          - Enabled chip-area optimization by creating a design framework based on a closed-form
+            model, validated theoretically and experimentally.
+          - 'Expanded Philips’ patent portfolio through circuit inventions resulting in
+            #text(maroon, weight: "bold")[8 first-named EPO patent records (6 granted)].'
+          - Completed a PhD with Eindhoven University of Technology, publishing peer-reviewed
+            research and presenting internationally.
+
       - company: Lear Corporation
         position: Hardware Engineer
         start_date: 2010-03
         end_date: 2011-05
         location: Valls, Spain
         highlights:
-          - 'Delivered a working first-iteration #text(maroon, weight: "bold")[60 kW] racing-car
-            inverter, owning its hardware from design and test setup to production.'
-          - Held the inverter's volume target when others called it infeasible, aligning suppliers
-            and technical contributors around it.
-          - 'Designed an in-house, very low-profile tangential current sensor at
-            #text(maroon, weight: "bold")[one-sixth of the cost] of the off-the-shelf sensor it
-            replaced, with adjustable sensitivity and very high accuracy.'
+          - 'Delivered a #text(maroon, weight: "bold")[60 kW] racing-car inverter that worked
+            on its first iteration by leading hardware design, test setup, and production.'
+          - Met an inverter volume target considered infeasible by coordinating suppliers
+            and technical contributors.
+          - 'Reduced current-sensor cost to #text(maroon, weight: "bold")[one-sixth]
+            by designing an in-house, low-profile tangential sensor with adjustable
+            sensitivity and high accuracy.'
       - company: HP (via Capgemini)
         position: Embedded Systems Engineer, Printer Firmware
         start_date: 2006-09
         end_date: 2007-09
         location: Barcelona
         highlights:
-          - Developed and maintained HP Large-Format Printers firmware in C and C++ on Linux,
-            shipping official releases and patches.
-          - 'Delivered bug fixes in a C/C++ printer-firmware codebase so large that a full
-            build took #text(maroon, weight: "bold")[six hours] on a 2007 HP workstation, covering
-            its rendering engine, state machine and peripherals.'
-          - Shipped embedded-Linux security releases with updated third-party libraries.
-          - Trained the Bangalore engineers taking over the department's firmware during a
-            two-to-three-week transfer visit.
+          - 'Delivered production fixes within the #text(maroon, weight: "bold")[first month]
+            in a large C/C++ and Java codebase spanning Linux and distributed ARM targets,
+            with a #text(maroon, weight: "bold")[six-hour full build].'
+          - Resolved longstanding firmware issues by applying hardware expertise
+            beyond the software team’s capabilities.
+          - Managed builds, release packaging, and security updates for HP’s
+            top-of-the-line large-format printers using ClearCase.
+          - 'Transferred firmware knowledge to the Bangalore team through
+            #text(maroon, weight: "bold")[two-to-three weeks] of hands-on training.'
+
     Education:
       - institution: Eindhoven University of Technology
         area: Electrical Engineering
@@ -149,14 +141,7 @@ cv:
       - Native Catalan and Spanish · Proficient in English and French · Conversational in Portuguese
         and Dutch
     Projects:
-      - name: AI-agent career pipeline
-        end_date: 2026-10
-        highlights:
-          - Built a Mastra agent pipeline, a structured career knowledge base and an artifact
-            workspace, with agent skills checked into the repositories.
       - name: Switched-capacitor converter impedance tools
-        start_date: 2015-03
-        end_date: 2026-10
         highlights:
           - 'Porting my MATLAB converter models to C++ (SymEngine) and
             #text(maroon, weight: "bold")[WebAssembly]; GitHub Actions builds the pinned library
