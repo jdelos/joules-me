@@ -5,7 +5,7 @@
 # Accents: #text(maroon, weight: "bold")[...] (no nested parentheses, or RenderCV escapes it).
 cv:
   name: Julià Delos Ayllón
-  headline: Software Engineer · C/C++, Linux, Embedded Systems, Full-Stack Web
+  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · Embedded Systems Full-Stack Web
   location: Maastricht, Netherlands
   email: julidelos@gmail.com
   phone: +31 6 26 17 98 86
@@ -18,28 +18,27 @@ cv:
     Experience:
       - company: La Calçotada
         position: Founder
-        start_date: 2020
+        start_date: 2019
         end_date: 2025
         location: Netherlands
         highlights:
-          - 'Turned a yearly food festival into a scalable, Airbnb-style model for food experiences
-            that exported more than #text(maroon, weight: "bold")[100,000 calçots], bringing this
-            Catalan tradition to more than #text(maroon, weight: "bold")[10,000 people] in the
-            Netherlands and neighbouring countries.'
+          - "Turned a yearly food festival into a scalable business model for food experiences serving
+            up to [10,000 users] in the Netherlands and 7 neighbouring countries."
           - 'Generated #text(maroon, weight: "bold")[EUR 100k+] in MVP online sales, with peak
             run-rate around #text(maroon, weight: "bold")[EUR 20k/month], gross margins above
             #text(maroon, weight: "bold")[40%], and approximately #text(maroon, weight: "bold")[3%]
             e-commerce conversion.'
           - 'Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to fill hours they
             would otherwise be closed or empty, hosting around #text(maroon, weight: "bold")[200 guests]
-            per afternoon; each restaurant earned about €24 per guest (€4 from me plus about €20
-            in drinks), roughly #text(maroon, weight: "bold")[€4,800 per afternoon].'
-          - 'Built the operating model behind the venture: value proposition, e-commerce flow,
+            per afternoon; each restaurant earned about 19€ per guest (€4 from me plus about €15
+            in drinks), roughly #text(maroon, weight: "bold")[2800€ per afternoon] on top of their base revenue.'
+          - "Built the operating model behind the venture: value proposition, e-commerce flow,
             logistics, supplier relationships, restaurant partnerships, driver-based financial
-            modelling, and customer operations.'
+            modelling, and customer operations."
           - Created an equity-crowdfunding platform so the business could be owned by its
-            community, applying open-source principles to an open business model; designed
-            and built its tested TypeScript/Astro DApps and Solidity contracts.
+            community, applying open-source principles to an open business model, and failed in
+            the go-to-market phase.
+
       - company: INNER / Innertech.ai
         position: Founder and CTO
         start_date: 2022-04
@@ -52,6 +51,7 @@ cv:
             contributing to product, technical, business positioning, and financial projections.'
           - Mapped the patent landscape and potential competing companies to clarify commercial
             risk, positioning, and venture-development options.
+
       - company: Ripatrip
         position: Co-Founder and CTO
         start_date: 2019-09
@@ -64,8 +64,8 @@ cv:
             concept to working prototype.
           - 'Released an operating prototype for kitesurf destination search within
             #text(maroon, weight: "bold")[two months] and expanded to early ski/snowboard search.'
-          - 'Built the Gatsby front end, Sanity content schemas and the scripts that imported
-            travel data, authoring #text(maroon, weight: "bold")[85% of commits] (677 of 797).'
+          - "Delivered a client-only application using a Gatsby/Redux front end, Sanity content schemas and the scripts that imported
+            travel data"
       - company: ICT Group
         position: Innovation and Technology Consultant
         start_date: 2016-09
@@ -139,7 +139,7 @@ cv:
         date: 2010
       - institution: Polytech Lille
         area: Industrial Software Development
-        degree: Degree
+        degree: BSc
         date: 2006
       - institution: Technical University of Catalonia
         area: Electrical Engineering
@@ -150,7 +150,6 @@ cv:
         and Dutch
     Projects:
       - name: AI-agent career pipeline
-        start_date: 2026-04
         end_date: 2026-10
         highlights:
           - Built a Mastra agent pipeline, a structured career knowledge base and an artifact
@@ -160,8 +159,8 @@ cv:
         end_date: 2026-10
         highlights:
           - 'Porting my MATLAB converter models to C++ (SymEngine) and
-            #text(maroon, weight: "bold")[WebAssembly], with GitHub Actions building the pinned
-            library and checking the native and WebAssembly results against MATLAB.'
+            #text(maroon, weight: "bold")[WebAssembly]; GitHub Actions builds the pinned library
+            and checks the native and WebAssembly results against MATLAB.'
       - name: Onion Memorandum platform
         start_date: 2024-07
         end_date: 2025-03
@@ -192,7 +191,7 @@ cv:
           - Designed an electronic system to detect electromagnetic perturbations in antenna EMC
             test setups (INRETS).
 design:
-  theme: engineeringresumes
+  theme: harvard
   page:
     size: a4
     top_margin: 1.1cm
