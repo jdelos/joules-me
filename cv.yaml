@@ -5,7 +5,7 @@
 # Accents: #text(maroon, weight: "bold")[...] (no nested parentheses, or RenderCV escapes it).
 cv:
   name: Julià Delos Ayllón
-  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · From Embbeded to Full-Stack
+  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · From Embedded to Full-Stack
   location: Maastricht, Netherlands
   email: julidelos@gmail.com
   phone: +31 6 26 17 98 86
@@ -20,6 +20,17 @@ cv:
         of hardware and software and a passion for building things. Enjoys turning theory into working systems and uses
         Blender to bring personal engineering and 3D printing projects to life. Eager to contribute this experience, curiosity,
         and Mediterranean passion to Blender’s development.
+    Technical skills:
+      - label: Languages
+        details: C, C++, TypeScript, JavaScript, Python, Java, Solidity, MATLAB
+      - label: Systems
+        details: Linux, embedded Linux, firmware, ARM, real-time systems (dSPACE, RTAI), CAN, WebAssembly
+      - label: Web
+        details: React, Remix, Astro, Gatsby, Redux, XState, Prisma, Sanity, Shopify apps
+      - label: Tooling
+        details: Git, ClearCase, GitHub Actions, Docker, Fly.io, Vitest, Playwright, Cypress, Hardhat, Mastra
+      - label: Hardware
+        details: Power electronics, circuit design, MATLAB/Simulink, prototyping and test setups
     Experience:
       - company: La Calçotada
         position: Founder
