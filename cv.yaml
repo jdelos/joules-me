@@ -25,9 +25,13 @@ cv:
         end_date: 2025
         location: Netherlands
         highlights:
-          - Turned a yearly food festival into a scalable business that exported more than
-            100,000 calçots, bringing this Catalan tradition to more than 10,000 people in the
-            Netherlands and neighbouring countries.
+          - Turned a yearly food festival into a scalable, Airbnb-style model for food experiences
+            that exported more than 100,000 calçots, bringing this Catalan tradition to more
+            than 10,000 people in the Netherlands and neighbouring countries.
+          - Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to fill hours they
+            would otherwise be closed or empty, hosting around 200 guests per afternoon; each
+            restaurant earned about €24 per guest (€4 from me plus about €20 in drinks),
+            roughly €4,800 per afternoon.
           - Designed and built tested TypeScript/Astro DApps and Solidity contracts, with
             their integrations, documentation and delivery workflows.
           - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
