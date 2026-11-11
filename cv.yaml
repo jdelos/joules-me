@@ -25,6 +25,9 @@ cv:
         end_date: 2025
         location: Netherlands
         highlights:
+          - Turned a yearly food festival into a scalable business that exported more than
+            100,000 calçots, bringing this Catalan tradition to more than 10,000 people in the
+            Netherlands and neighbouring countries.
           - Designed and built tested TypeScript/Astro DApps and Solidity contracts, with
             their integrations, documentation and delivery workflows.
           - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
