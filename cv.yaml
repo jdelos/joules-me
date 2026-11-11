@@ -24,11 +24,14 @@ cv:
       - label: Languages
         details: C, C++, TypeScript, JavaScript, Python, Java, Solidity, MATLAB
       - label: Systems
-        details: Linux, embedded Linux, firmware, ARM, real-time systems (dSPACE, RTAI), CAN, WebAssembly
-      - label: Web
-        details: React, Remix, Astro, Gatsby, Redux, XState, Prisma, Sanity, Shopify apps
+        details: Linux, embedded Linux, firmware, ARM, real-time systems (dSPACE, RTAI), CAN, edge computing,
+          WebAssembly
+      - label: Frameworks
+        details: React, Next.js, Remix, Astro, Gatsby, Django, Hardhat, Redux, XState, Prisma, Sanity, Shopify apps
       - label: Tooling
-        details: Git, ClearCase, GitHub Actions, Docker, Fly.io, Vitest, Playwright, Cypress, Hardhat, Mastra
+        details: Git, ClearCase, GitHub Actions, Docker, Fly.io, Vitest, Playwright, Cypress, Mastra
+      - label: IDEs
+        details: LazyVim (Neovim), VS Code
       - label: Hardware
         details: Power electronics, circuit design, MATLAB/Simulink, prototyping and test setups
     Experience:
