@@ -8,140 +8,144 @@
 # confirmed (1b, 3b, 4a, 5e "within a month", P1–P4) are not used.
 cv:
   name: Julià Delos Ayllón
-  headline: Software Engineer · C/C++, Linux, Embedded Systems, WebAssembly
+  headline: Software Engineer · C/C++, Linux, Embedded Systems, Full-Stack Web
   location: Maastricht, Netherlands
   email: julidelos@gmail.com
   phone: +31 6 26 17 98 86
   social_networks:
-  - network: LinkedIn
-    username: jdelos
-  - network: GitHub
-    username: jdelos
+    - network: LinkedIn
+      username: jdelos
+    - network: GitHub
+      username: jdelos
   sections:
-    Technical skills:
-    - label: Languages
-      details: C, C++, Python, TypeScript/JavaScript, Java, MATLAB, Solidity
-    - label: Build and tooling
-      details: Git with feature branches and pull requests, Git LFS, CMake (built Blender,
-        OpenFOAM, Qucs and a Qucs WebAssembly port from source), Make, GitHub Actions,
-        Docker
-    - label: Platforms
-      details: Linux (daily development on Manjaro), embedded Linux, WebAssembly,
-        dSPACE real-time hardware (MATLAB/Simulink benchmarking)
-    - label: Graphics
-      details: WebGL and GLSL vertex and fragment shaders through Three.js and React
-        Three Fiber; no production OpenGL, Vulkan or Metal work yet
-    Projects:
-    - name: Switched-capacitor converter impedance tools
-      start_date: 2015-03
-      end_date: 2026-10
-      highlights:
-      - Ported my MATLAB converter models to C++ (built on SymEngine) and WebAssembly,
-        with parity tests against MATLAB.
-      - Set up GitHub Actions builds that compile a pinned third-party library (SymEngine)
-        from source and test the C++ port against it on every pull request.
     Experience:
-    - company: La Calçotada
-      position: Founder
-      start_date: 2014-03
-      end_date: 2026-10
-      location: Netherlands
-      highlights:
-      - Designed and built tested TypeScript/Astro DApps and Solidity contracts, with
-        their integrations, documentation and delivery workflows.
-      - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
-        its verified release artifacts into the DApp repository by pull request.
-      - Presented the venture in investor conversations during the 2024–2025 fundraising
-        phase.
-    - company: INNER / Innertech.ai
-      position: Founder and CTO
-      start_date: 2022-04
-      end_date: 2022-12
-      location: Eindhoven, Netherlands
-      highlights:
-      - Developed the venture's patent strategy and competitor analysis to inform positioning
-        and venture decisions.
-      - Built the venture's financial model, go-to-market scenarios and grant proposals.
-      - Built the venture's Gatsby, React and Sanity landing site.
-    - company: Ripatrip
-      position: Co-Founder and CTO
-      start_date: 2019-09
-      end_date: 2020-06
-      location: Remote (team in Portugal)
-      highlights:
-      - Led two junior developers, defined product scope and software architecture, and
-        delivered the full travel-discovery web application under changing requirements.
-      - Built the Gatsby front end, Sanity content schemas and the scripts that imported
-        travel data, authoring 85% of commits (677 of 797).
-    - company: ICT Group
-      position: Innovation and Technology Consultant
-      start_date: 2016-09
-      end_date: 2018-09
-      location: Eindhoven, Netherlands
-      highlights:
-      - Scouted blockchain, data-science and IoT opportunities and translated them into
-        business perspectives for ICT Group's business units.
-      - Guided early data-science projects, then convinced senior leadership to create
-        a dedicated data-science team and data lake.
-    - company: Philips Research
-      position: Research Scientist
-      start_date: 2011-06
-      end_date: 2015-12
-      location: Eindhoven, Netherlands
-      highlights:
-      - Defined and validated new circuit concepts for miniaturized LED drivers through
-        models, simulations and prototypes, resulting in publications and invention disclosures.
-      - First-named inventor on eight EPO patent records (six granted) in integrated power
-        electronics; contributed to the internal miniaturization roadmap.
-      - Framed innovation concepts with Lean Startup and the Business Model Canvas to
-        tie proposed circuits to business needs.
-    - company: Lear Corporation
-      position: Hardware Engineer
-      start_date: 2010-03
-      end_date: 2011-05
-      location: Valls, Spain
-      highlights:
-      - Delivered a working first-iteration 60 kW racing-car inverter, owning its hardware
-        from design and test setup to production.
-      - Held the inverter's volume target when others called it infeasible, aligning suppliers
-        and technical contributors around it.
-      - Designed an in-house, very low-profile tangential current sensor at one-sixth
-        of the cost of the off-the-shelf sensor it replaced, with adjustable sensitivity
-        and very high accuracy.
-    - company: HP (via Capgemini)
-      position: Embedded Systems Engineer, Printer Firmware
-      start_date: 2006-09
-      end_date: 2007-09
-      location: Barcelona
-      highlights:
-      - Developed and maintained HP Large-Format Printers firmware in C and C++ on Linux,
-        shipping official releases and patches.
-      - Delivered bug fixes in a C/C++ printer-firmware codebase so large that a full
-        build took six hours on a 2007 HP workstation, covering its rendering engine, state
-        machine and peripherals.
-      - Shipped embedded-Linux security releases with updated third-party libraries.
-      - Trained the Bangalore engineers taking over the department's firmware during a
-        two-to-three-week transfer visit.
+      - company: La Calçotada
+        position: Founder
+        start_date: 2020
+        end_date: 2025
+        location: Netherlands
+        highlights:
+          - Designed and built tested TypeScript/Astro DApps and Solidity contracts, with
+            their integrations, documentation and delivery workflows.
+          - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
+            its verified release artifacts into the DApp repository by pull request.
+          - Presented the venture in investor conversations during the 2024–2025 fundraising
+            phase.
+      - company: INNER / Innertech.ai
+        position: Founder and CTO
+        start_date: 2022-04
+        end_date: 2022-12
+        location: Eindhoven, Netherlands
+        highlights:
+          - Developed the venture's patent strategy and competitor analysis to inform positioning
+            and venture decisions.
+          - Built the venture's financial model, go-to-market scenarios and grant proposals.
+          - Built the venture's Gatsby, React and Sanity landing site.
+      - company: Ripatrip
+        position: Co-Founder and CTO
+        start_date: 2019-09
+        end_date: 2020-06
+        location: Remote (team in Portugal)
+        highlights:
+          - Led two junior developers, defined product scope and software architecture, and
+            delivered the full travel-discovery web application under changing requirements.
+          - Built the Gatsby front end, Sanity content schemas and the scripts that imported
+            travel data, authoring 85% of commits (677 of 797).
+      - company: ICT Group
+        position: Innovation and Technology Consultant
+        start_date: 2016-09
+        end_date: 2018-09
+        location: Eindhoven, Netherlands
+        highlights:
+          - Scouted blockchain, data-science and IoT opportunities and translated them into
+            business perspectives for ICT Group's business units.
+          - Guided early data-science projects, then convinced senior leadership to create
+            a dedicated data-science team and data lake.
+      - company: Philips Research
+        position: Research Scientist
+        start_date: 2011-06
+        end_date: 2015-12
+        location: Eindhoven, Netherlands
+        highlights:
+          - Defined and validated new circuit concepts for miniaturized LED drivers through
+            models, simulations and prototypes, resulting in publications and invention disclosures.
+          - First-named inventor on eight EPO patent records (six granted) in integrated power
+            electronics; contributed to the internal miniaturization roadmap.
+          - Framed innovation concepts with Lean Startup and the Business Model Canvas to
+            tie proposed circuits to business needs.
+      - company: Lear Corporation
+        position: Hardware Engineer
+        start_date: 2010-03
+        end_date: 2011-05
+        location: Valls, Spain
+        highlights:
+          - Delivered a working first-iteration 60 kW racing-car inverter, owning its hardware
+            from design and test setup to production.
+          - Held the inverter's volume target when others called it infeasible, aligning suppliers
+            and technical contributors around it.
+          - Designed an in-house, very low-profile tangential current sensor at one-sixth
+            of the cost of the off-the-shelf sensor it replaced, with adjustable sensitivity
+            and very high accuracy.
+      - company: HP (via Capgemini)
+        position: Embedded Systems Engineer, Printer Firmware
+        start_date: 2006-09
+        end_date: 2007-09
+        location: Barcelona
+        highlights:
+          - Developed and maintained HP Large-Format Printers firmware in C and C++ on Linux,
+            shipping official releases and patches.
+          - Delivered bug fixes in a C/C++ printer-firmware codebase so large that a full
+            build took six hours on a 2007 HP workstation, covering its rendering engine, state
+            machine and peripherals.
+          - Shipped embedded-Linux security releases with updated third-party libraries.
+          - Trained the Bangalore engineers taking over the department's firmware during a
+            two-to-three-week transfer visit.
     Education:
-    - institution: Eindhoven University of Technology
-      area: Electrical Engineering
-      degree: PhD
-      date: 2016
-    - institution: Technical University of Catalonia
-      area: Electronics Engineering
-      degree: MSc
-      date: 2010
-    - institution: Polytech Lille
-      area: Industrial Software Development
-      degree: Degree
-      date: 2006
-    - institution: Technical University of Catalonia
-      area: Electrical Engineering
-      degree: BSc
-      date: 2005
+      - institution: Eindhoven University of Technology
+        area: Electrical Engineering
+        degree: PhD
+        date: 2016
+      - institution: Technical University of Catalonia
+        area: Electronics Engineering
+        degree: MSc
+        date: 2010
+      - institution: Polytech Lille
+        area: Industrial Software Development
+        degree: Degree
+        date: 2006
+      - institution: Technical University of Catalonia
+        area: Electrical Engineering
+        degree: BSc
+        date: 2005
     Languages:
-    - Catalan and Spanish (native) · English (fluent) · French and Portuguese (conversational)
-      · Dutch (basic)
+      - · Native Catalan and Spanish · Proficien in English and French · Conversational in Portuguese and Dutch
+    Technical skills:
+      - label: Languages
+        details: C, C++, Python, TypeScript/JavaScript, Java, MATLAB, Solidity
+      - label: Build and tooling
+        details:
+          Git with feature branches and pull requests, Git LFS, CMake (built Blender,
+          OpenFOAM, Qucs and a Qucs WebAssembly port from source), Make, GitHub Actions,
+          Docker
+      - label: Platforms
+        details:
+          Linux (daily development on Manjaro), embedded Linux, WebAssembly,
+          dSPACE real-time hardware (MATLAB/Simulink benchmarking)
+      - label: Graphics
+        details:
+          WebGL and GLSL vertex and fragment shaders through Three.js and React
+          Three Fiber; no production OpenGL, Vulkan or Metal work yet
+      - label: IDS Environment
+        details: LazyVim, VS-Code, PyCham
+    Projects:
+      - name: Switched-capacitor converter impedance tools
+        start_date: 2015-03
+        end_date: 2026-10
+        highlights:
+          - Ported my MATLAB converter models to C++ (built on SymEngine) and WebAssembly,
+            with parity tests against MATLAB.
+          - Set up GitHub Actions builds that compile a pinned third-party library (SymEngine)
+            from source and test the C++ port against it on every pull request.
 design:
   theme: engineeringresumes
   page:
@@ -149,9 +153,8 @@ design:
 locale:
   language: english
 settings:
-  current_date: '2026-11-09'
+  current_date: "2026-11-09"
   render_command:
     output_folder: rendered
     dont_generate_html: true
     dont_generate_markdown: true
-  pdf_title: Julià Delos Ayllón - CV
