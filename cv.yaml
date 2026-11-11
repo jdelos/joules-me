@@ -1,11 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
-# Blender — Senior Software Engineer. Built locally on 2026-11-09 (server unavailable).
-# Bullets: picks confirmed in resume-bullets-blender.md (5 Nov 2026); facts from
-# /home/juli/Documents/julia-delos-kb/biography.yaml and raw/captures (4–5 Nov 2026).
-# 2026-11-11 resume-fit pass: added scctools project, split mixed CI bullet, removed
-# unsupported Windows and career-break claims, cut pilot bullet (conflict C12 open).
-# 2026-11-11 resume-bullets pass: safe variants 1c, 2b, 3d, 4d, 5b; proposals not yet
-# confirmed (1b, 3b, 4a, 5e "within a month", P1–P4) are not used.
+# Blender — Senior Software Engineer. Built locally (server unavailable).
+# 2026-11-11: bullets from JDelos_Brightlands_Business_Developer_Engineering_modern.pdf
+# plus the user's own La Calçotada bullets; layout from software_engineer_base_cv/cv.yaml.
+# Accents: #text(maroon, weight: "bold")[...] (no nested parentheses, or RenderCV escapes it).
 cv:
   name: Julià Delos Ayllón
   headline: Software Engineer · C/C++, Linux, Embedded Systems, Full-Stack Web
@@ -25,75 +22,98 @@ cv:
         end_date: 2025
         location: Netherlands
         highlights:
-          - Turned a yearly food festival into a scalable, Airbnb-style model for food experiences
-            that exported more than 100,000 calçots, bringing this Catalan tradition to more
-            than 10,000 people in the Netherlands and neighbouring countries.
-          - Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to fill hours they
-            would otherwise be closed or empty, hosting around 200 guests per afternoon; each
-            restaurant earned about €24 per guest (€4 from me plus about €20 in drinks),
-            roughly €4,800 per afternoon.
+          - 'Turned a yearly food festival into a scalable, Airbnb-style model for food experiences
+            that exported more than #text(maroon, weight: "bold")[100,000 calçots], bringing this
+            Catalan tradition to more than #text(maroon, weight: "bold")[10,000 people] in the
+            Netherlands and neighbouring countries.'
+          - 'Generated #text(maroon, weight: "bold")[EUR 100k+] in MVP online sales, with peak
+            run-rate around #text(maroon, weight: "bold")[EUR 20k/month], gross margins above
+            #text(maroon, weight: "bold")[40%], and approximately #text(maroon, weight: "bold")[3%]
+            e-commerce conversion.'
+          - 'Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to fill hours they
+            would otherwise be closed or empty, hosting around #text(maroon, weight: "bold")[200 guests]
+            per afternoon; each restaurant earned about €24 per guest (€4 from me plus about €20
+            in drinks), roughly #text(maroon, weight: "bold")[€4,800 per afternoon].'
+          - 'Built the operating model behind the venture: value proposition, e-commerce flow,
+            logistics, supplier relationships, restaurant partnerships, driver-based financial
+            modelling, and customer operations.'
           - Created an equity-crowdfunding platform so the business could be owned by its
             community, applying open-source principles to an open business model; designed
             and built its tested TypeScript/Astro DApps and Solidity contracts.
-          - Built CI that tests a Solidity/TypeScript protocol on every pull request and syncs
-            its verified release artifacts into the DApp repository by pull request.
-          - Presented the venture in investor conversations during the 2024–2025 fundraising
-            phase.
       - company: INNER / Innertech.ai
         position: Founder and CTO
         start_date: 2022-04
         end_date: 2022-12
         location: Eindhoven, Netherlands
         highlights:
-          - Developed the venture's patent strategy and competitor analysis to inform positioning
-            and venture decisions.
-          - Built the venture's financial model, go-to-market scenarios and grant proposals.
-          - Built the venture's Gatsby, React and Sanity landing site.
+          - Joined the early venture phase around disruptive X-ray technology developed by Mosaic,
+            exploring healthcare applications for underserved contexts.
+          - 'Supported the venture through the #text(maroon, weight: "bold")[HighTechXL] program,
+            contributing to product, technical, business positioning, and financial projections.'
+          - Mapped the patent landscape and potential competing companies to clarify commercial
+            risk, positioning, and venture-development options.
       - company: Ripatrip
         position: Co-Founder and CTO
         start_date: 2019-09
         end_date: 2020-06
         location: Remote (team in Portugal)
         highlights:
-          - Led two junior developers, defined product scope and software architecture, and
-            delivered the full travel-discovery web application under changing requirements.
-          - Built the Gatsby front end, Sanity content schemas and the scripts that imported
-            travel data, authoring 85% of commits (677 of 797).
+          - 'Co-founded a data-driven travel search platform supported by
+            #text(maroon, weight: "bold")[Startup Lisboa].'
+          - Led platform architecture for a Gatsby/React PWA and guided two junior developers from
+            concept to working prototype.
+          - 'Released an operating prototype for kitesurf destination search within
+            #text(maroon, weight: "bold")[two months] and expanded to early ski/snowboard search.'
+          - 'Built the Gatsby front end, Sanity content schemas and the scripts that imported
+            travel data, authoring #text(maroon, weight: "bold")[85% of commits] (677 of 797).'
       - company: ICT Group
         position: Innovation and Technology Consultant
         start_date: 2016-09
         end_date: 2018-09
         location: Eindhoven, Netherlands
         highlights:
-          - Scouted blockchain, data-science and IoT opportunities and translated them into
-            business perspectives for ICT Group's business units.
-          - Guided early data-science projects, then convinced senior leadership to create
-            a dedicated data-science team and data lake.
+          - Worked in the Technology and Innovation Department with direct CTO contact on internal
+            venture validation and data-driven innovation.
+          - Educated business-unit leaders on how data science could create value inside their
+            units, and convinced senior leadership to create a dedicated data-science team and
+            data lake.
+          - 'Coached around #text(maroon, weight: "bold")[10 developer-led teams] preparing for
+            ICT''s internal Dragons'' Den using Strategyzer canvas tools, Business Model Canvas,
+            shared visual language, and validation experiments.'
+          - 'Helped teams turn technical ideas into business cases and investment-board narratives;
+            #text(maroon, weight: "bold")[3 ideas were internally funded] for further validation,
+            development, or first-customer testing.'
+          - Developed business and driver-based financial plans to support internal Dragons' Den
+            proposals, connecting technical feasibility, customer value, operational impact, and
+            investment logic.
       - company: Philips Research
         position: Research Scientist
         start_date: 2011-06
         end_date: 2015-12
         location: Eindhoven, Netherlands
         highlights:
-          - Defined and validated new circuit concepts for miniaturized LED drivers through
-            models, simulations and prototypes, resulting in publications and invention disclosures.
-          - First-named inventor on eight EPO patent records (six granted) in integrated power
-            electronics; contributed to the internal miniaturization roadmap.
-          - Framed innovation concepts with Lean Startup and the Business Model Canvas to
-            tie proposed circuits to business needs.
+          - Researched highly integrated power-conversion solutions for next-generation LED lighting
+            in collaboration with Eindhoven University of Technology.
+          - 'Developed a new family of circuits for miniaturized LED-driver applications, resulting
+            in #text(maroon, weight: "bold")[8 first-named EPO patent records (6 granted)] forming
+            a patent family for broad protection.'
+          - Worked closely with Philips IP counsel on invention disclosures, technical novelty,
+            prior-art positioning, and patent submission quality.
+          - Presented research internationally, contributed to peer-reviewed publications, and
+            completed a PhD in Electrical Engineering.
       - company: Lear Corporation
         position: Hardware Engineer
         start_date: 2010-03
         end_date: 2011-05
         location: Valls, Spain
         highlights:
-          - Delivered a working first-iteration 60 kW racing-car inverter, owning its hardware
-            from design and test setup to production.
+          - 'Delivered a working first-iteration #text(maroon, weight: "bold")[60 kW] racing-car
+            inverter, owning its hardware from design and test setup to production.'
           - Held the inverter's volume target when others called it infeasible, aligning suppliers
             and technical contributors around it.
-          - Designed an in-house, very low-profile tangential current sensor at one-sixth
-            of the cost of the off-the-shelf sensor it replaced, with adjustable sensitivity
-            and very high accuracy.
+          - 'Designed an in-house, very low-profile tangential current sensor at
+            #text(maroon, weight: "bold")[one-sixth of the cost] of the off-the-shelf sensor it
+            replaced, with adjustable sensitivity and very high accuracy.'
       - company: HP (via Capgemini)
         position: Embedded Systems Engineer, Printer Firmware
         start_date: 2006-09
@@ -102,9 +122,9 @@ cv:
         highlights:
           - Developed and maintained HP Large-Format Printers firmware in C and C++ on Linux,
             shipping official releases and patches.
-          - Delivered bug fixes in a C/C++ printer-firmware codebase so large that a full
-            build took six hours on a 2007 HP workstation, covering its rendering engine, state
-            machine and peripherals.
+          - 'Delivered bug fixes in a C/C++ printer-firmware codebase so large that a full
+            build took #text(maroon, weight: "bold")[six hours] on a 2007 HP workstation, covering
+            its rendering engine, state machine and peripherals.'
           - Shipped embedded-Linux security releases with updated third-party libraries.
           - Trained the Bangalore engineers taking over the department's firmware during a
             two-to-three-week transfer visit.
@@ -126,42 +146,46 @@ cv:
         degree: BSc
         date: 2005
     Languages:
-      - · Native Catalan and Spanish · Proficien in English and French · Conversational in Portuguese and Dutch
-    Technical skills:
-      - label: Languages
-        details: C, C++, Python, TypeScript/JavaScript, Java, MATLAB, Solidity
-      - label: Build and tooling
-        details:
-          Git with feature branches and pull requests, Git LFS, CMake (built Blender,
-          OpenFOAM, Qucs and a Qucs WebAssembly port from source), Make, GitHub Actions,
-          Docker
-      - label: Platforms
-        details:
-          Linux (daily development on Manjaro), embedded Linux, WebAssembly,
-          dSPACE real-time hardware (MATLAB/Simulink benchmarking)
-      - label: Graphics
-        details:
-          WebGL and GLSL vertex and fragment shaders through Three.js and React
-          Three Fiber; no production OpenGL, Vulkan or Metal work yet
-      - label: IDS Environment
-        details: LazyVim, VS-Code, PyCham
-    Projects:
-      - name: Switched-capacitor converter impedance tools
-        start_date: 2015-03
-        end_date: 2026-10
-        highlights:
-          - Ported my MATLAB converter models to C++ (built on SymEngine) and WebAssembly,
-            with parity tests against MATLAB.
-          - Set up GitHub Actions builds that compile a pinned third-party library (SymEngine)
-            from source and test the C++ port against it on every pull request.
+      - Native Catalan and Spanish · Proficient in English and French · Conversational in Portuguese
+        and Dutch
 design:
   theme: engineeringresumes
   page:
     size: a4
+    top_margin: 1.1cm
+    bottom_margin: 1.0cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_footer: false
+    show_top_note: false
+  colors:
+    headline: rgb(31, 58, 95)
+    section_titles: rgb(31, 58, 95)
+    links: rgb(31, 58, 95)
+  typography:
+    font_size:
+      body: 9.1pt
+      name: 25pt
+      headline: 10pt
+      connections: 9pt
+      section_titles: 12.5pt
+    line_spacing: 0.45em
+  section_titles:
+    space_above: 0.22cm
+    space_below: 0.12cm
+  sections:
+    space_between_regular_entries: 0.19cm
+    space_between_text_based_entries: 0.08cm
+  entries:
+    date_and_location_width: 5.3cm
+    allow_page_break: false
+    highlights:
+      space_above: 0.04cm
+      space_between_items: 0.03cm
 locale:
   language: english
 settings:
-  current_date: "2026-11-09"
+  current_date: "2026-11-11"
   render_command:
     output_folder: rendered
     dont_generate_html: true
