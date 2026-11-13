@@ -81,15 +81,35 @@ def viewer_html(title: str) -> str:
       flippingTime: 700,
     }});
     flip.loadFromHTML(pages);
+    let direction = 1;
+    let autoplay;
+    const pause = () => {{
+      clearTimeout(autoplay);
+      autoplay = setTimeout(step, 5000);
+    }};
+    const step = () => {{
+      const current = flip.getCurrentPageIndex();
+      if (current >= pdf.numPages - 1) direction = -1;
+      if (current <= 0) direction = 1;
+      if (direction > 0) flip.flipNext("top");
+      else flip.flipPrev("top");
+      autoplay = setTimeout(step, 2600);
+    }};
     const update = (event) => {{ label.textContent = `Page ${{event.data + 1}} / ${{pdf.numPages}}`; }};
     flip.on("flip", update);
     update({{ data: 0 }});
-    document.querySelector("#prev").onclick = () => flip.flipPrev();
-    document.querySelector("#next").onclick = () => flip.flipNext();
+    document.querySelector("#prev").onclick = () => {{ flip.flipPrev("top"); pause(); }};
+    document.querySelector("#next").onclick = () => {{ flip.flipNext("top"); pause(); }};
+    book.addEventListener("pointerdown", pause);
     document.addEventListener("keydown", (event) => {{
-      if (event.key === "ArrowLeft") flip.flipPrev();
-      if (event.key === "ArrowRight") flip.flipNext();
+      if (event.key === "ArrowLeft") {{ flip.flipPrev("top"); pause(); }}
+      if (event.key === "ArrowRight") {{ flip.flipNext("top"); pause(); }}
     }});
+    document.addEventListener("visibilitychange", () => {{
+      clearTimeout(autoplay);
+      if (!document.hidden) pause();
+    }});
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) pause();
     status.remove();
   </script>
 </body>
