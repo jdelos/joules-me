@@ -1,11 +1,12 @@
+# yamllint disable rule:line-length
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 # Blender — Senior Software Engineer. Built locally (server unavailable).
 # 2026-11-11: bullets from JDelos_Brightlands_Business_Developer_Engineering_modern.pdf
 # plus the user's own La Calçotada bullets; layout from software_engineer_base_cv/cv.yaml.
-# Accents: #text(maroon, weight: "bold")[...] (no nested parentheses, or RenderCV escapes it).
+# Accents use the shared brand color #EE2D2E.
 cv:
   name: Julià Delos Ayllón
-  headline: Hardware and Software Engineer · Failed Entrepreneur · Linux Nerd · From Embedded to Full-Stack
+  headline: " Senior Electrical Engineer · Entrepreneur #linebreak() #text(black,size:0.75em )[03/03/1983 - Mataró, Spain]"
   location: Maastricht, Netherlands
   email: julidelos@gmail.com
   phone: +31 6 26 17 98 86
@@ -16,43 +17,30 @@ cv:
       username: jdelos
   sections:
     Profile:
-      - Seasoned engineer and failed entrepreneur with a PhD in Microelectronics, bringing together a deep understanding
+      - Spanish seasoned engineer and failed entrepreneur with a PhD in Microelectronics, bringing together a deep understanding
         of hardware and software and a passion for building things. Enjoys turning theory into working systems and uses
         Blender to bring personal engineering and 3D printing projects to life. Eager to contribute this experience, curiosity,
         and Mediterranean passion to Blender’s development.
-    Technical skills:
-      - label: Languages
-        details: C, C++, TypeScript, JavaScript, Python, Java, Solidity, MATLAB
-      - label: Systems
-        details: Linux, embedded Linux, firmware, ARM, real-time systems (dSPACE, RTAI), CAN, edge computing,
-          WebAssembly
-      - label: Frameworks
-        details: React, Next.js, Remix, Astro, Gatsby, Django, Hardhat, Redux, XState, Prisma, Sanity, Shopify apps
-      - label: Tooling
-        details: Git, ClearCase, GitHub Actions, Docker, Fly.io, Vitest, Playwright, Cypress, Mastra
-      - label: IDEs
-        details: LazyVim (Neovim), VS Code
-      - label: Hardware
-        details: Power electronics, circuit design, MATLAB/Simulink, prototyping and test setups
+
     Experience:
-      - company: La Calçotada
+      - company: La Calçotada (https://lacalcotada.com)
         position: Founder
         start_date: 2019
-        end_date: 2025
-        location: Netherlands
+        end_date: 2026
+        location: Netherlandis
         highlights:
           - 'Turned a yearly food festival into a food-experience business serving up to
-            #text(maroon, weight: "bold")[10,000 users] across the Netherlands and seven
+            #text(accent, weight: "bold")[10,000 users] across the Netherlands and seven
             neighbouring countries, building the e-commerce flow, logistics and supplier network.'
-          - 'Generated #text(maroon, weight: "bold")[EUR 100k+] in online sales during the
+          - 'Generated #text(accent, weight: "bold")[EUR 100k+] in online sales during the
             initial market validation phase, reaching a peak run-rate of around
-            #text(maroon, weight: "bold")[EUR 20k/month], with gross margins above
-            #text(maroon, weight: "bold")[40%] and approximately
-            #text(maroon, weight: "bold")[3%] e-commerce conversion.'
+            #text(accent, weight: "bold")[EUR 20k/month], with gross margins above
+            #text(accent, weight: "bold")[40%] and approximately
+            #text(accent, weight: "bold")[3%] e-commerce conversion.'
           - 'Partnered with restaurants in Amsterdam, Eindhoven and Tilburg to host around
-            #text(maroon, weight: "bold")[200 guests] per afternoon during otherwise quiet
+            #text(accent, weight: "bold")[200 guests] per afternoon during otherwise quiet
             or closed hours, generating approximately
-            #text(maroon, weight: "bold")[EUR 19 per guest] for each restaurant.'
+            #text(accent, weight: "bold")[EUR 19 per guest] for each restaurant.'
           - "Built an equity-crowdfunding platform intended to give the community ownership
             of the business, applying open-source principles to an open business model;
             the initiative failed at the go-to-market stage."
@@ -63,16 +51,15 @@ cv:
         location: Remote (team in Portugal)
         highlights:
           - 'Co-founded a travel search platform supported by
-            #text(maroon, weight: "bold")[Startup Lisboa], initially focused
+            #text(accent, weight: "bold")[Startup Lisboa], initially focused
             on kitesurfing and later expanded to ski and snowboard destinations.'
-          - 'Delivered a working demo within #text(maroon, weight: "bold")[two weeks]
-            and presented it at #text(maroon, weight: "bold")[Web Summit 2019 in Lisbon].
-            Guided #text(maroon, weight: "bold")[two junior developers] through further development.'
-          - 'Enabled travel searches across #text(maroon, weight: "bold")[5,000 destinations]
+          - 'Delivered a working demo within #text(accent, weight: "bold")[two weeks]
+            and presented it at #text(accent, weight: "bold")[Web Summit 2019 in Lisbon].
+            Guided #text(accent, weight: "bold")[two junior developers] through further development.'
+          - 'Enabled travel searches across #text(accent, weight: "bold")[5,000 destinations]
             by integrating multiple APIs for destination data and travel offerings.'
-          - "Built the platform with React-Gatsby/Redux and a CMS as the only backend,
-            querying flight, accommodation, and destination data directly
-            from the client in real time."
+          - "Desinged a servrless architecture with the statice site generator Gatsby and Redux, and a headless CMS;
+            using Netlify hosting infrasturcutre"
 
       - company: ICT Group
         position: Innovation and Technology Consultant
@@ -84,9 +71,9 @@ cv:
             tools across business units, creating a shared language for strategy
             and innovation."
           - 'Convinced senior leadership to establish a
-            #text(maroon, weight: "bold")[dedicated data-science team and data lake]
+            #text(accent, weight: "bold")[dedicated data-science team and data lake]
             by showing business-unit leaders how data science could benefit their units.'
-          - 'Coached around #text(maroon, weight: "bold")[10 developer-led teams]
+          - 'Coached around #text(accent, weight: "bold")[10 developer-led teams]
             for the internal Dragons'' Den, using experiments to validate
             technical ideas and customer value.'
 
@@ -101,7 +88,7 @@ cv:
           - Enabled chip-area optimization by creating a design framework based on a closed-form
             model, validated theoretically and experimentally.
           - 'Expanded Philips’ patent portfolio through circuit inventions resulting in
-            #text(maroon, weight: "bold")[8 first-named EPO patent records (6 granted)].'
+            #text(accent, weight: "bold")[8 first-named EPO patent records (6 granted)].'
           - Completed a PhD with Eindhoven University of Technology, publishing peer-reviewed
             research and presenting internationally.
 
@@ -111,28 +98,34 @@ cv:
         end_date: 2011-05
         location: Valls, Spain
         highlights:
-          - 'Delivered a #text(maroon, weight: "bold")[60 kW] racing-car inverter that worked
-            on its first iteration by leading hardware design, test setup, and production.'
-          - Met an inverter volume target considered infeasible by coordinating suppliers
-            and technical contributors.
-          - 'Reduced current-sensor cost to #text(maroon, weight: "bold")[one-sixth]
+          - 'Led a #text(accent, weight: "bold")[60 kW] racing-car inverter project,
+            coordinating software and mechanical engineers, university partners, and
+            a technical consortium. Delivered on time, meeting size and performance
+            targets initially considered infeasible.'
+          - Led hardware design, testing, and production, delivering an inverter
+            that worked on its first iteration.
+          - 'Set up a high-power test lab, defining requirements and selecting
+            instruments and loads for approximately #text(accent, weight: "bold")[€200k]
+            in equipment investment.'
+          - 'Reduced current-sensor cost to #text(accent, weight: "bold")[one-sixth]
             by designing an in-house, low-profile tangential sensor with adjustable
             sensitivity and high accuracy.'
+
       - company: HP (via Capgemini)
         position: Embedded Systems Engineer, Printer Firmware
         start_date: 2006-09
         end_date: 2007-09
         location: Barcelona
         highlights:
-          - 'Delivered production fixes within the #text(maroon, weight: "bold")[first month]
-            in a large C/C++ and Java codebase spanning Linux and distributed ARM targets,
-            with a #text(maroon, weight: "bold")[six-hour full build].'
+          - 'Delivered production fixes within the #text(accent, weight: "bold")[first month]
+            in a large C/C++ and Java codebase targeting a main Linux/OS and multipe distributed
+            ASICs'
           - Resolved longstanding firmware issues by applying hardware expertise
             beyond the software team’s capabilities.
           - Managed builds, release packaging, and security updates for HP’s
             top-of-the-line large-format printers using ClearCase.
           - 'Transferred firmware knowledge to the Bangalore team through
-            #text(maroon, weight: "bold")[two-to-three weeks] of hands-on training.'
+            #text(accent, weight: "bold")[two-to-three weeks] of hands-on training.'
 
     Education:
       - institution: Eindhoven University of Technology
@@ -151,15 +144,13 @@ cv:
         area: Electrical Engineering
         degree: BSc
         date: 2005
-    Languages:
-      - Native Catalan and Spanish · Proficient in English and French · Conversational in Portuguese
-        and Dutch
-    Projects:
+
+    Independent Projects:
       - name: Switched-capacitor converter impedance tools
+        end_date: present
+        start_date: 2026-06
         highlights:
-          - 'Porting my MATLAB converter models to C++ (SymEngine) and
-            #text(maroon, weight: "bold")[WebAssembly]; GitHub Actions builds the pinned library
-            and checks the native and WebAssembly results against MATLAB.'
+          - Web application of the power converter simulator of my PhD research, I am porting MATLAB to C++ (SymEngine) targeting WASAM.
       - name: Onion Memorandum platform
         start_date: 2024-07
         end_date: 2025-03
@@ -172,14 +163,10 @@ cv:
         highlights:
           - Shopify app that issues QR-code tickets as PDFs, plus a Remix scanner app built on
             XState; tested with Cypress and Vitest, deployed with Docker on Fly.io.
-      - name: Aircraft power converter, Polytechnic Institute of New York University
-        start_date: 2009-02
-        end_date: 2009-12
-        highlights:
-          - 'As a research visitor, designed and modelled a #text(maroon, weight: "bold")[20 kW]
-            fuel-cell converter providing ±270 V rails for a universal power-converter research
-            system.'
-      - name: Embedded and real-time internships, Renault Technocentre, LAGIS and INRETS
+
+      - name: Renault Technocentre, LAGIS
+        location: France
+        summary: Embedded and real-time internships
         start_date: 2005-02
         end_date: 2006-07
         highlights:
@@ -187,10 +174,93 @@ cv:
             (Renault).
           - Wrote a CAN network sniffer in C on Linux/RTAI for the Robucar vehicle and the developer
             manual for SynDEx, a tool for distributed real-time embedded systems (LAGIS).
-          - Designed an electronic system to detect electromagnetic perturbations in antenna EMC
-            test setups (INRETS).
+
+      - name: Hacklab Nòmada, Hackmeetings, Mataró Sense Fils
+        location: Mataró, Spain
+        summary: Hacktivism and community computing
+        start_date: 1999
+        end_date: 2009
+        highlights:
+          - Rebuilt discarded computers for people without access to technology and
+            maintained a public computer room with free internet access.
+          - Learned Linux hands-on by setting up a server and network-booted computers,
+            and helping run Linux community events.
+          - Co-organized a Hackmeeting in Mataró and volunteered at another in the
+            Basque Country, each hosting around 400 people, supporting electrical
+            setup and catering.
+    Skills:
+      - label: Programming
+        details: C, C++, Type/JavaScript, Python, Java, Solidity, MATLAB
+
+      - label: Systems
+        details:
+          Embedded Linux, firmware, ARM, real-time systems (dSPACE, RTAI),
+          CAN, edge computing, WebAssembly
+
+      - label: Web development
+        details: HTML, CSS, Ja React, Next.js, Remix, Astro, Gatsby, Django,
+          Redux, XState, Prisma, Sanity, Shopify Remix Apps
+
+      - label: DevOps
+        details: Linux administration, Docker, CI/CD with GitHub Actions,
+          deployment workflows, self-hosted services, networking,
+          reverse proxies, Git, ClearCase, Fly.io
+
+      - label: Testing
+        details: Vitest, Playwright, Cypress, hardware/software integration testing
+
+      - label: AI-assisted development
+        details: Pi agent, Hermes, Codex, Claude-Code,  llama.cpp, Ollama,
+          Mastra, human-in-the-loop agent workflows
+
+      - label: Blockchain
+        details: Hardhat, OpenZeppelin, Viem, Ethers,
+          smart-contract testing and DApp integration
+
+      - label: Creative
+        details: Figma, Procreate, Blender, FreeCAD, Davinci Resolve Studio , Sharp3D
+
+      - label: Languages
+        details: Native Catalan and Spanish · Proficient in English and French ·
+          Conversational in Portuguese and Dutch
+
+      - label: Extracurricualr Activities
+        details: Tinkering with my 3D printer, enjoying the outdoors through climbing, kitesurfing and ski touring, and exploring the possibilities of slow cooking for family and friends.
+
+    Certifications and Grants:
+      - label: Strategyzer Academy
+        details: Business Models that Work and Value Propositions that Sell, 2026
+      - label: La Caixa Master’s scholarship
+        details: Full tuition and monthly stipend, 2007
+
+    Patent portfolio:
+      - label: EP2989714B1 · 2016
+        details:
+          Compact power conversion device with continuous output regulation
+          range
+      - label: EP3011805B1 · 2018
+        details: Light emitting diode driver with differential voltage supply
+      - label: EP3047564B1 · 2019
+        details:
+          Compact driver, notably for a light emitting diode, having an auxiliary
+          output
+      - label: EP3047565B1 · 2019
+        details:
+          Compact driver, notably for a light emitting diode, having an integrated
+          dual output
+      - label: EP3243264B1 · 2021
+        details: Power conversion device
+      - label: EP3406109B1 · 2020
+        details:
+          A driver and method for driving at least two sets of solid state
+          lighting elements
+      - label: EP3111726A1 · 2017
+        details: Driver circuit with extended operation range
+      - label: EP3243265A1 · 2017
+        details: Power conversion device
+
 design:
-  theme: harvard
+  theme: sb2nov
   page:
     size: a4
     top_margin: 1.1cm
@@ -200,14 +270,14 @@ design:
     show_footer: false
     show_top_note: false
   colors:
-    headline: rgb(31, 58, 95)
-    section_titles: rgb(31, 58, 95)
-    links: rgb(31, 58, 95)
+    headline: "#EE2D2E"
+    section_titles: "#EE2D2E"
+    links: "#EE2D2E"
   typography:
     font_size:
-      body: 9.1pt
+      body: 10pt
       name: 25pt
-      headline: 10pt
+      headline: 12pt
       connections: 9pt
       section_titles: 12.5pt
     line_spacing: 0.45em
@@ -216,7 +286,7 @@ design:
     space_below: 0.12cm
   sections:
     space_between_regular_entries: 0.19cm
-    space_between_text_based_entries: 0.08cm
+    space_between_text_based_entries: 0.10cm
   entries:
     date_and_location_width: 5.3cm
     allow_page_break: false
@@ -229,5 +299,5 @@ settings:
   current_date: "2026-11-11"
   render_command:
     output_folder: rendered
-    dont_generate_html: true
+    dont_generate_html: false
     dont_generate_markdown: true
