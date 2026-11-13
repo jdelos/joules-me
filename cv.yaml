@@ -104,9 +104,8 @@ cv:
             targets initially considered infeasible.'
           - Led hardware design, testing, and production, delivering an inverter
             that worked on its first iteration.
-          - 'Set up a high-power test lab, defining requirements and selecting
-            instruments and loads for approximately #text(accent, weight: "bold")[€200k]
-            in equipment investment.'
+          - "Set up a high-voltage, high-power test lab for testing above 100 kW and up to 2 kV,
+            defining equipment requirements and operating procedures for safe testing."
           - 'Reduced current-sensor cost to #text(accent, weight: "bold")[one-sixth]
             by designing an in-house, low-profile tangential sensor with adjustable
             sensitivity and high accuracy.'
@@ -261,6 +260,11 @@ cv:
 
 design:
   theme: sb2nov
+  header:
+    connections:
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      hyperlink: true
   page:
     size: a4
     top_margin: 1.1cm
