@@ -26,24 +26,16 @@ def viewer_html(title: str) -> str:
 </head>
 <body>
   <main class="viewer-shell">
-    <header class="viewer-header">
-      <div>
-        <p class="eyebrow">Curriculum vitae</p>
-        <h1>{safe_title}</h1>
-      </div>
-      <nav class="actions" aria-label="Document actions">
+    <section class="book-wrap" aria-label="{safe_title} CV">
+      <div id="book" class="book"></div>
+      <p id="status" class="status" role="status">Loading…</p>
+      <nav class="actions" aria-label="Document controls">
         <button id="prev" type="button" aria-label="Previous page">←</button>
         <span id="page-label">Loading…</span>
         <button id="next" type="button" aria-label="Next page">→</button>
-        <a href="cv.pdf" download>Download PDF</a>
+        <a href="cv.pdf" download aria-label="Download PDF" title="Download PDF">↓</a>
       </nav>
-    </header>
-
-    <section class="book-wrap" aria-label="CV book">
-      <div id="book" class="book"></div>
-      <p id="status" class="status" role="status">Loading document…</p>
     </section>
-    <p class="hint">Drag page corner, use arrow keys, or tap page edges.</p>
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs" type="module"></script>
@@ -78,7 +70,7 @@ def viewer_html(title: str) -> str:
       width: 595,
       height: 842,
       size: "stretch",
-      minWidth: 280,
+      minWidth: 400,
       maxWidth: 595,
       minHeight: 396,
       maxHeight: 842,
@@ -105,25 +97,22 @@ def viewer_html(title: str) -> str:
 
 
 def viewer_css() -> str:
-    return '''@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap");
-:root { color-scheme: dark; --ink: #f5f1ea; --muted: #b5aea3; --accent: #EE2D2E; --bg: #171717; --panel: #22201e; }
+    return ''':root { color-scheme: dark; --ink: #fff; --bg: #171717; }
 * { box-sizing: border-box; }
-body { margin: 0; min-height: 100vh; color: var(--ink); background: radial-gradient(circle at 50% -20%, #4a302d, var(--bg) 45%); font-family: "DM Sans", sans-serif; }
-.viewer-shell { width: min(1180px, 100%); margin: auto; padding: 34px 24px 28px; }
-.viewer-header { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 26px; }
-.eyebrow { margin: 0 0 5px; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
-h1 { margin: 0; font-family: "Playfair Display", Georgia, serif; font-size: clamp(25px, 4vw, 42px); font-weight: 500; }
-.actions { display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: 13px; white-space: nowrap; }
-button, .actions a { border: 1px solid #514b45; border-radius: 5px; padding: 8px 12px; color: var(--ink); background: #292623; font: inherit; text-decoration: none; cursor: pointer; }
-button:hover, .actions a:hover { border-color: var(--accent); }
-#page-label { min-width: 75px; text-align: center; }
-.book-wrap { position: relative; display: grid; place-items: center; min-height: min(78vh, 840px); padding: 20px; border: 1px solid #3a3530; border-radius: 12px; background: linear-gradient(135deg, #302a27, #191817); box-shadow: 0 25px 80px rgb(0 0 0 / 35%); }
-.book { width: min(78vw, 595px); height: min(78vh, 842px); }
+html, body { margin: 0; width: 100%; min-height: 100%; background: var(--bg); }
+body { min-height: 100vh; overflow: hidden; font-family: system-ui, sans-serif; }
+.viewer-shell { display: grid; place-items: center; width: 100vw; height: 100vh; padding: 16px; }
+.book-wrap { position: relative; display: grid; place-items: center; width: min(100%, 595px); height: min(calc(100vh - 32px), 842px); }
+.book { width: 100%; height: 100%; filter: drop-shadow(0 18px 34px rgb(0 0 0 / 45%)); }
 .page { background: white; overflow: hidden; }
 .pdf-page { display: block; width: 100%; height: 100%; object-fit: contain; }
-.status { position: absolute; color: var(--muted); }
-.hint { margin: 15px 0 0; color: var(--muted); font-size: 12px; text-align: center; }
-@media (max-width: 700px) { .viewer-shell { padding: 20px 12px; } .viewer-header { display: block; } .actions { margin-top: 16px; } .book-wrap { min-height: 0; padding: 10px; } .book { width: min(92vw, 595px); height: min(78vh, 842px); } }
+.status { position: absolute; color: #aaa; }
+.actions { position: absolute; z-index: 20; left: 50%; bottom: 18px; display: flex; align-items: center; gap: 5px; padding: 5px; border: 1px solid rgb(255 255 255 / 18%); border-radius: 999px; color: var(--ink); background: rgb(20 20 20 / 78%); box-shadow: 0 6px 24px rgb(0 0 0 / 35%); backdrop-filter: blur(10px); transform: translateX(-50%); opacity: .38; transition: opacity .2s; }
+.actions:hover, .actions:focus-within { opacity: 1; }
+button, .actions a { display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 0; border-radius: 50%; color: inherit; background: transparent; font: 16px/1 system-ui, sans-serif; text-decoration: none; cursor: pointer; }
+button:hover, .actions a:hover { background: rgb(255 255 255 / 14%); }
+#page-label { min-width: 62px; font-size: 12px; text-align: center; white-space: nowrap; }
+@media (max-width: 700px) { .viewer-shell { padding: 0; } .book-wrap { width: 100vw; height: 100vh; } .book { filter: none; } .actions { bottom: max(12px, env(safe-area-inset-bottom)); opacity: .65; } }
 '''
 
 
@@ -137,10 +126,9 @@ def main() -> None:
     data = yaml.safe_load(source.read_text(encoding="utf-8"))
     cv = data["cv"]
 
-    # Public page keeps email as its only contact method.
-    for field in ("location", "phone", "website", "social_networks", "custom_connections"):
-        cv.pop(field, None)
     output.mkdir(parents=True, exist_ok=True)
+    for stale_pdf in output.glob("*.pdf"):
+        stale_pdf.unlink()
     with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", dir=source.parent, encoding="utf-8", delete=False) as public_source:
         yaml.safe_dump(data, public_source, allow_unicode=True, sort_keys=False)
         public_source_path = Path(public_source.name)
