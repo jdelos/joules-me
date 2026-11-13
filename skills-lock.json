@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "rendercv": {
+      "source": "rendercv/rendercv-skill",
+      "sourceType": "github",
+      "skillPath": "skills/rendercv/SKILL.md",
+      "computedHash": "cd3a84c191bc45de1684166afbca87c2027163cc3549a765d97bb2bcc8acc132"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 rendered/*.png
 rendered/*.typ
+
+.pytest_*
+.uff_*
+__pycache__
+
