@@ -304,4 +304,4 @@ settings:
   render_command:
     output_folder: rendered
     dont_generate_html: false
-    dont_generate_markdown: true
+    dont_generate_markdown: false

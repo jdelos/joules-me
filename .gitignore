@@ -1,7 +1,12 @@
-rendered/*.png
-rendered/*.typ
+# Generated rendering output
+rendered/*
+generated/*
 
 .pytest_*
 .uff_*
 __pycache__
+
+# Local secrets and credentials
+.env
+.env.*
 
